@@ -1,0 +1,22 @@
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.btn-goods-info, .dropdown-goods-info {
+	width: 100%;
+}
+
+/* центровка nav-tabs в меню о товарах */
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    zoom:1;
+}
